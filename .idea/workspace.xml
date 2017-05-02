@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b7466b5-270d-4edd-a00c-6ad52660059f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/booking.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/confirmation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/188df5b6842fde2835f93fd812b95bfdd415a9fa/_general.scssc" afterPath="$PROJECT_DIR$/.sass-cache/188df5b6842fde2835f93fd812b95bfdd415a9fa/_general.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/2c48491ac9f505d1898a7468d49af58c93467a95/_forms.scssc" afterPath="$PROJECT_DIR$/.sass-cache/2c48491ac9f505d1898a7468d49af58c93467a95/_forms.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/188df5b6842fde2835f93fd812b95bfdd415a9fa/_bogdan.scssc" afterPath="$PROJECT_DIR$/.sass-cache/188df5b6842fde2835f93fd812b95bfdd415a9fa/_bogdan.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/c415be2745b4d069c5c5cc5f5cda71d1aa5ec41a/_bogdan.scssc" afterPath="$PROJECT_DIR$/.sass-cache/c415be2745b4d069c5c5cc5f5cda71d1aa5ec41a/_bogdan.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_general.scss" afterPath="$PROJECT_DIR$/scss/_general.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/modules/_forms.scss" afterPath="$PROJECT_DIR$/scss/modules/_forms.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_bogdan.scss" afterPath="$PROJECT_DIR$/scss/_bogdan.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/results.php" afterPath="$PROJECT_DIR$/services/results.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +25,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.5375">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="booking.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="booking.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/services/booking.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="15">
@@ -50,6 +45,16 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="results.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/services/results.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="366">
+                  <caret line="99" column="3" lean-forward="false" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -58,7 +63,7 @@
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="241">
-                  <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+                  <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -123,12 +128,12 @@
         <option value="$PROJECT_DIR$/services/register.php" />
         <option value="$PROJECT_DIR$/services/loading.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/services/results.php" />
         <option value="$PROJECT_DIR$/scss/_general.scss" />
         <option value="$PROJECT_DIR$/scss/modules/_forms.scss" />
         <option value="$PROJECT_DIR$/services/confirmation.php" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/services/booking.php" />
+        <option value="$PROJECT_DIR$/services/results.php" />
       </list>
     </option>
   </component>
@@ -283,12 +288,12 @@
       <option name="presentableId" value="Default" />
       <updated>1493715938808</updated>
       <workItem from="1493715940201" duration="1864000" />
-      <workItem from="1493745914000" duration="2360000" />
+      <workItem from="1493745914000" duration="2878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23513000" />
+    <option name="totallyTimeSpent" value="24031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="712" extended-state="6" />
@@ -361,7 +366,7 @@
         <state relative-caret-position="705">
           <caret line="47" column="63" lean-forward="false" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
           <folding>
-            <marker date="1493746096000" expanded="true" signature="3999:4001" ph="{...}" />
+            <marker date="1493749702000" expanded="true" signature="5106:5108" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -509,7 +514,7 @@
         <state relative-caret-position="705">
           <caret line="47" column="63" lean-forward="false" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
           <folding>
-            <marker date="1493746096000" expanded="true" signature="3999:4001" ph="{...}" />
+            <marker date="1493749702000" expanded="true" signature="5106:5108" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -534,14 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/results.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="86" column="31" lean-forward="false" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -597,7 +594,7 @@
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
-          <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -608,6 +605,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/results.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="99" column="3" lean-forward="false" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
           <folding />
         </state>
       </provider>
