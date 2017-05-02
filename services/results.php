@@ -89,7 +89,7 @@
     <div class="purchase-ticket">
       <div class="ticket-information">
       </div>
-      <div class="btn"> Purchase </div>
+      <div class="btn btn-wdw-booking"> Purchase </div>
       <div class="purchase-button">
       </div>
     </div>
