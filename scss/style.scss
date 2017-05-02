@@ -1,0 +1,21 @@
+//normalize
+@import 'partials/normalize';
+
+
+//importing stylesheets
+@import 'partials/variables';
+
+@import 'libraries/hover/hover';
+@import 'libraries/animate';
+@import 'partials/typography';
+@import 'partials/sass-flexbox';
+@import 'partials/mixins';
+@import "modules/buttons";
+@import "modules/forms";
+@import "modules/links";
+@import "modules/icons";
+@import 'general';
+
+
+@import 'bogdan';
+@import 'danielle';

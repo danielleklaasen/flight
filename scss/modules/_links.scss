@@ -1,0 +1,36 @@
+a{
+  color: $primary-color;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 1.1em; //bigger than the rest
+  text-transform: capitalize;
+}
+
+.link-appear-base{
+  @include underline-from-center();
+  &:before{
+    background: $secondary-color;
+  }
+}
+
+.link-appear-primary{
+  @include underline-from-center();
+  &:before{
+    background: $primary-color;
+  }
+}
+
+.link-disappear-base{
+  @include underline-from-center-disappear();
+  &:before{
+    background: $secondary-color;
+  }
+}
+
+.link-disappear-primary{
+  @include underline-from-center-disappear();
+  &:before{
+    background: $primary-color;
+  }
+}

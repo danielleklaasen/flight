@@ -1,0 +1,284 @@
+/********************************************************************************
+
+ TABLE OF CONTENTS
+
+   GENERAL
+   SHAPES
+   CARD
+   TEMPLATE PAGE
+   VIEWS (WDW)
+    Z-index overview
+   BACKGROUND IMAGE
+   FOOTER
+
+ ********************************************************************************/
+
+
+/********************************************************************************
+
+                                  GENERAL
+
+********************************************************************************/
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body,html{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba($warning-color, 0.5);
+}
+
+.container{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section{
+  margin: 50px 0;
+}
+
+hr{
+  margin: 30px 0;
+  border-top: 2px solid $primary-color;
+  width: 100%;
+}
+
+.center{
+  text-align: center;
+}
+
+.centered{
+  margin: 0 auto;
+}
+
+.space{
+  height: 100px;
+}
+
+
+/********************************************************************************
+
+                                  SHAPES
+
+********************************************************************************/
+
+.circle{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 2px solid $primary-color;
+}
+
+/********************************************************************************
+
+                                  CARD
+
+********************************************************************************/
+
+%card {
+  background: $base-color;
+  @include border-radius(2px);
+  position: relative;
+  margin: 1rem;
+
+  width: 300px;
+  height: 300px;
+}
+
+%card-shadow-1{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+%card-shadow-2{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-1 {
+  @extend %card;
+  @extend %card-shadow-1;
+}
+
+.card-2{
+  @extend %card;
+  @extend %card-shadow-2;
+}
+
+/********************************************************************************
+
+                                  TEMPLATE PAGE
+
+********************************************************************************/
+
+#icons{
+  div{
+    height: 100px;
+    width: 230px;
+    position: relative;
+    img{
+      position: absolute;
+      bottom: 0;
+    }
+    .icon-xs{
+      left: 0;
+    }
+    .icon{
+      left:76px;
+    }
+    .icon-large{
+      right: 0;
+    }
+  }
+}
+
+#colors{
+  .fixed-width{
+    width: 50px;
+  }
+}
+
+.horizontal-vertical-center{
+  @include display-flex();
+  @include justify-content(center);
+}
+
+.box{
+  width: 100%;
+  padding: 100px 0;
+  @include border-radius(2px);
+}
+
+.example-find-flight{
+  @include align-items(center);
+  @include flex-direction(row);
+  @include border($primary-color);
+}
+
+.example-landing{
+  @include align-items(center);
+  @include flex-direction(column);
+  h1, h3, a{
+    color: $secondary-color;
+  }
+}
+
+.example-text{
+  width: 80%;
+  padding: 10%;
+  @include flex-direction(column);
+  @include align-items(flex-start);
+  h1, h3, a, h6, p{
+    color: $highlight-color;
+  }
+  hr{
+    border-color: $highlight-color;
+  }
+}
+
+.gradient-1, .gradient-2{
+  width: 100%;
+  height: 400px;
+}
+
+/********************************************************************************
+
+                                  VIEWS (WDW)
+
+********************************************************************************/
+
+.wdw{
+  width: 100vw;
+  height: 100vh;
+
+  position: fixed;
+  overflow: scroll;
+  top: 0;
+  left: 0;
+
+  display: none;
+  &.open{
+    display: block;
+  }
+}
+
+.wdw-example-2{
+  .background-image{
+    background-image: url(../assets/images/img26.jpg);
+  }
+}
+
+.wdw-example-3{
+  &.background-image{
+    background-image: url(../assets/images/img5.jpg);
+  }
+}
+
+
+
+/********************************************************************************
+                                  Z-index overview
+********************************************************************************/
+
+.wdw-template{
+  z-index: 0;
+}
+
+.wdw-example-1{
+  z-index: 100;
+}
+
+.wdw-example-2{
+  z-index: 200;
+}
+
+.wdw-example-3{
+  z-index: 300;
+}
+
+/********************************************************************************
+
+                                  BACKGROUND IMAGE
+
+********************************************************************************/
+
+.background-image{
+  @include background-size(cover);
+  background-position: center;
+  //background-image: url(../assets/images/yourUrl.jpg);
+}
+
+.image-half-width{
+  height: 100vh;
+  width: 50vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  @extend %card-shadow-2;
+}
+
+/********************************************************************************
+
+                                  FOOTER
+
+********************************************************************************/
+
+.footer{
+  width: 100vw;
+  height: 80vh;
+  position: absolute;
+  left: 0;
+  &.background-image{
+    background-image: url(../assets/images/img2.jpg);
+    .background-image-overlay-base-color{
+      @include display-flex();
+      @include justify-content(center);
+      p{
+        padding-top: 20px;
+      }
+    }
+  }
+}

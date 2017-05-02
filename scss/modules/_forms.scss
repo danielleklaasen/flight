@@ -1,0 +1,104 @@
+
+/*********************
+INPUTS
+*********************/
+
+// setting up defaults
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+select,
+textarea,
+.field {
+  margin: 5px 0;
+  width: 100%;
+  max-width:400px;
+  height: 30px;
+  @include border($primary-color);
+  // a focused input (or hovered on)
+  &:focus,
+  &:active {
+    outline: none;
+  } // end hover or focus
+
+  // error notification
+  &.error,
+  &.is-invalid {
+
+  } // end invalid input
+
+  // success notification
+  &.success,
+  &.is-valid {
+
+  } // end valid input
+
+} // end input defaults
+
+// spacing out the password (thx @murtaugh)
+input[type="password"] {
+  letter-spacing: 0.3em;
+}
+
+// textareas
+textarea {
+  min-height: 150px;
+  //line-height: 1.5em;
+  //padding-top: 5px;
+}
+
+/********************************************************************************
+ FLOATING LABEL
+ ********************************************************************************/
+
+form{
+  div{
+    position: relative;
+    margin: 5px 0;
+    input[type="text"],
+    input[type="password"],
+    input[type="datetime"],
+    input[type="datetime-local"],
+    input[type="date"],
+    input[type="month"],
+    input[type="time"],
+    input[type="week"],
+    input[type="number"],
+    input[type="email"],
+    input[type="url"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="color"],
+    select,
+    textarea,
+    .field {
+      margin: 0;
+      height: 45px;
+    }
+    label{
+      position: absolute;
+      left: 10px;
+      top: 8px;
+      opacity: 0.8;
+      transition: 0.2s all;
+      &.active{
+        left: 10px;
+        top: 4px;
+        opacity: 1;
+        font-size: 0.9em;
+      }
+    }
+  }
+}
+

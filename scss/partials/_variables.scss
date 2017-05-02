@@ -1,0 +1,107 @@
+/********************************************************************************
+                                  SETTING COLOUR VARIABLES
+********************************************************************************/
+
+
+$base-color: #ffffff;
+$primary-color: #000000;
+$secondary-color: #f2f2f2;
+
+$highlight-color: #1609c1;
+
+//primary, success, info, warning, danger
+$success-color: #000000; //decide on this one
+$info-color: #000000; // decide on this one
+$warning-color: #f4a20f;
+$error-color: #FF5252;
+
+/********************************************************************************
+                                  COLOUR BASED CLASSES
+********************************************************************************/
+
+.base-color{
+  color: $base-color;
+}
+
+.primary-color{
+  color: $primary-color;
+}
+
+.secondary-color{
+  color: $secondary-color;
+}
+
+.highlight-color{
+  color: $highlight-color;
+}
+
+.warning-color{
+  color: $warning-color;
+}
+
+/********************************************************************************
+                                  BACKGROUND COLOURS
+********************************************************************************/
+
+
+.base-color-bg{
+  background-color: $base-color;
+}
+
+.primary-color-bg{
+  background-color: $primary-color;
+}
+
+.secondary-color-bg{
+  background-color: $secondary-color;
+}
+
+.highlight-color-bg{
+  background-color: $highlight-color;
+}
+
+.warning-color-bg{
+  background-color: $warning-color;
+}
+
+
+/********************************************************************************
+                                  OVERLAY COLOURS
+********************************************************************************/
+%full-width-height{
+  width: 100%;
+  height: 100%;
+}
+
+.background-image-overlay-base-color{
+  @extend %full-width-height;
+  background-color: rgba($base-color, 0.5);
+}
+.background-image-overlay-primary-color{
+  @extend %full-width-height;
+  background-color: rgba($primary-color, 0.5);
+}
+.background-image-overlay-highlight-color{
+  @extend %full-width-height;
+  background-color: rgba($highlight-color, 0.2);
+}
+
+/********************************************************************************
+                                  GRADIENT
+********************************************************************************/
+
+.gradient-1{
+  background: $base-color; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, $base-color, lighten($warning-color,0.5)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, $base-color, lighten($warning-color,0.5)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, $base-color, lighten($warning-color,0.5)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, $base-color, lighten($warning-color,0.5)); /* Standard syntax */
+}
+.gradient-2{
+  background: $base-color; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-90deg, $base-color, $secondary-color); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, $base-color, $secondary-color); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, $base-color, $secondary-color); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, $base-color, $secondary-color); /* Standard syntax */
+}
+
