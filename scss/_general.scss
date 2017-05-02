@@ -152,7 +152,7 @@ nav.main{
   @include justify-content(space-around);
   @include align-items(center);
 
-  background-color: $secondary-color;
+  background-color: rgba($secondary-color, 0.9);
   .button-container{
     @include display-flex();
     @include flex-direction(row);
