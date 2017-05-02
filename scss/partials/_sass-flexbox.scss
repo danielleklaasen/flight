@@ -97,6 +97,15 @@
     -ms-flex-direction: row;
     flex-direction: row;
 }
+
+@mixin flex-direction-column(){
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
 /*
     Flex wrap
  */
