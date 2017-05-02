@@ -117,13 +117,11 @@ function fnOpenBooking() {
  Open confirmation
  ********************************************************************************/
 $(document).on('click', '.btw-wdw-confirmation', function(){
-    console.log("open confirmation");
     fnOpenConfirmation();
 
 });
 
 function fnOpenConfirmation() {
-    console.log("now");
     $('.wdw').removeClass('open');
     $('.wdw-confirmation').addClass('open');
     $('nav.main').removeClass("nav-small");

@@ -389,6 +389,21 @@ nav.main{
   }
 }
 
+.wdw-confirmation{
+  z-index: 500;
+  .container{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    @include display-flex();
+    @include justify-content(center);
+    @include align-items(center);
+    @include flex-direction(column);
+  }
+}
+
 
 
 /********************************************************************************

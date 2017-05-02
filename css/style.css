@@ -5155,10 +5155,10 @@ template {
 
 /* HEADLINES */
 /* CALCULATING EMS
-target ├À context = result
+target ÷ context = result
 
 example:
-24 ├À 16 = 1.5
+24 ÷ 16 = 1.5
 
 explanation: you want 24 px, base is 16 px.
 set styling to 1.5 em.
@@ -5243,7 +5243,7 @@ nav.main .container, .menu .button-container, .example-find-flight, .wdw-loading
   -ms-flex-direction: row;
   flex-direction: row; }
 
-.menu, .example-landing, .example-text, .page-landing div, .page-account, .flights-information, .departing-from, .destination {
+.menu, .example-landing, .example-text, .wdw-confirmation .container, .page-landing div, .page-account, .flights-information, .departing-from, .destination {
   -webkit-box-orient: vertical;
   -moz-box-orient: vertical;
   -webkit-flex-direction: column;
@@ -5275,7 +5275,7 @@ nav.main .container, .menu .button-container, .example-find-flight, .wdw-loading
 /*
     Justify content
  */
-.horizontal-vertical-center, .wdw-register .container, .wdw-login .container, .wdw-loading .container, .wdw-booking .container, .footer.background-image .background-image-overlay-base-color, .departing-from, .destination {
+.horizontal-vertical-center, .wdw-register .container, .wdw-login .container, .wdw-loading .container, .wdw-booking .container, .wdw-confirmation .container, .footer.background-image .background-image-overlay-base-color, .departing-from, .destination {
   -webkit-box-pack: center;
   -moz-box-pack: center;
   -webkit-flex-pack: center;
@@ -5308,7 +5308,7 @@ nav.main .container, .menu .button-container, #flight-results {
   -moz-align-items: flex-start;
   align-items: flex-start; }
 
-nav.main .container, .menu, .example-find-flight, .example-landing, .wdw-register .container, .wdw-login .container, .wdw-loading .container, .wdw-loading .container .find-flight, .wdw-booking .container, .wdw-booking .container .form-booking, .page-landing div, .company-logo {
+nav.main .container, .menu, .example-find-flight, .example-landing, .wdw-register .container, .wdw-login .container, .wdw-loading .container, .wdw-loading .container .find-flight, .wdw-booking .container, .wdw-booking .container .form-booking, .wdw-confirmation .container, .page-landing div, .company-logo {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
@@ -6039,6 +6039,21 @@ nav.main {
       .wdw-booking .container .form-booking input {
         width: 100%;
         max-width: 1000px; }
+
+.wdw-confirmation {
+  z-index: 500; }
+  .wdw-confirmation .container {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; }
 
 /********************************************************************************
                                   Z-index overview
