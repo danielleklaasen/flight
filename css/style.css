@@ -5243,7 +5243,7 @@ nav.main .container, .menu .button-container, .example-find-flight, .wdw-loading
   -ms-flex-direction: row;
   flex-direction: row; }
 
-.menu, .example-landing, .example-text, .page-landing div, .page-account, .flights-information, .departing-from, .destination {
+.menu, .example-landing, .example-text, .page-landing div, .page-account, .flights-information, .departing-from {
   -webkit-box-orient: vertical;
   -moz-box-orient: vertical;
   -webkit-flex-direction: column;
@@ -5275,11 +5275,7 @@ nav.main .container, .menu .button-container, .example-find-flight, .wdw-loading
 /*
     Justify content
  */
-<<<<<<< HEAD
 .horizontal-vertical-center, .wdw-register .container, .wdw-login .container, .wdw-loading .container, .wdw-booking .container, .footer.background-image .background-image-overlay-base-color {
-=======
-.horizontal-vertical-center, .wdw-register .container, .wdw-login .container, .wdw-loading .container, .footer.background-image .background-image-overlay-base-color, .departing-from, .destination {
->>>>>>> origin/master
   -webkit-box-pack: center;
   -moz-box-pack: center;
   -webkit-flex-pack: center;
@@ -6202,7 +6198,6 @@ nav.main {
   position: relative;
   color: black;
   width: 100%;
-  height: 25vh;
   margin-top: 6px;
   border-radius: 3px;
   background-color: #f6f9fa;
@@ -6273,9 +6268,6 @@ nav.main {
   height: 49%;
   width: 100%; }
 
-.flights-information:first-child {
-  border-bottom-style: dotted; }
-
 .image-logo {
   display: -webkit-box;
   display: -moz-box;
@@ -6283,20 +6275,15 @@ nav.main {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  max-height: 100%;
-  min-width: 150px;
-  max-width: 150px; }
+  max-height: 50%; }
   @media (max-width: 1028px) {
     .image-logo {
-      min-width: 150px;
       max-width: 150px; } }
   @media (max-width: 768px) {
     .image-logo {
-      min-width: 100px;
-      max-width: 100px; } }
+      max-width: 75px; } }
   @media (max-width: 480px) {
     .image-logo {
-      min-width: 100px;
       max-width: 100px; } }
 
 .company-logo {
@@ -6318,7 +6305,7 @@ nav.main {
   display: -webkit-flex;
   display: flex;
   text-align: right;
-  width: 28%;
+  width: 48%;
   background-position: right center; }
 
 .flights {
@@ -6331,51 +6318,13 @@ nav.main {
   text-align: center; }
 
 .lineSVG {
-  stroke: #00cc99;
+  stroke: #00ffcc;
   stroke-width: 8; }
-  @media (max-width: 1028px) {
-    .lineSVG {
-      width: 200px; } }
-  @media (max-width: 768px) {
-    .lineSVG {
-      width: 100px; } }
-  @media (max-width: 480px) {
-    .lineSVG {
-      width: 50px; } }
-
-.lineSVGWarning {
-  stroke: gray;
-  stroke-width: 8; }
-  @media (max-width: 1028px) {
-    .lineSVGWarning {
-      width: 200px; } }
-  @media (max-width: 768px) {
-    .lineSVGWarning {
-      width: 100px; } }
-  @media (max-width: 480px) {
-    .lineSVGWarning {
-      width: 50px; } }
 
 .flight-duration {
-  margin-left: 8%;
-  margin-right: 8%;
-  padding-top: 12px; }
-  @media (max-width: 480px) {
-    .flight-duration {
-      padding-top: 0px;
-      margin-left: 2%;
-      margin-right: 2%; } }
-  @media (max-width: 1028px) {
-    .flight-duration {
-      margin-left: 5%;
-      margin-right: 5%; } }
-  @media (max-width: 768px) {
-    .flight-duration {
-      margin-left: 5%;
-      margin-right: 5%; } }
+  padding: 5px; }
 
 .purchase-ticket {
-  width: 170px;
   background-color: #e8f0f3;
   height: inherit;
   overflow: hidden;
@@ -6398,20 +6347,9 @@ nav.main {
     font-size: 15px; } }
 @media (max-width: 768px) {
   .flights span {
-    font-size: 12px; } }
+    font-size: 13px; } }
 @media (max-width: 480px) {
   .flights span {
     font-size: 10px; } }
-
-.destination {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -webkit-flexbox;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  text-align: left;
-  width: 28%;
-  background-position: right center; }
 
 /*# sourceMappingURL=style.css.map */
