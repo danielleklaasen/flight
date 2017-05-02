@@ -1,10 +1,12 @@
 <!-- FLIGHT WINDOW -->
 <div class="wdw wdw-flight base-color-bg open">
 
-    <section class="horizontal-vertical-center box page-landing highlight-color-bg secondary-color">
-        <h3>Fly light</h3>
-        <h1>We stress, you <span class="bold">relax</span></h1>
-        <a href="#searchBar" class="link-disappear-base" data-smooth-scroll>Search flights now</a>
+    <section class="horizontal-vertical-center box page-landing highlight-color-bg secondary-color background-image">
+        <div class="background-image-overlay-highlight-color">
+            <h3>Fly light</h3>
+            <h1>We stress, you <span class="bold">relax</span></h1>
+            <a href="#searchBar" class="link-disappear-base" data-smooth-scroll>Search flights now</a>
+        </div>
     </section>
 
     <div class="container">

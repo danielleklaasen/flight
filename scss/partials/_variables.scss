@@ -83,7 +83,7 @@ $error-color: #FF5252;
 }
 .background-image-overlay-highlight-color{
   @extend %full-width-height;
-  background-color: rgba($highlight-color, 0.2);
+  background-color: rgba($highlight-color, 0.5);
 }
 
 /********************************************************************************

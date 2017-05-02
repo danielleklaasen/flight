@@ -456,7 +456,7 @@ template {
   background-color: rgba(0, 0, 0, 0.5); }
 
 .background-image-overlay-highlight-color {
-  background-color: rgba(22, 9, 193, 0.2); }
+  background-color: rgba(22, 9, 193, 0.5); }
 
 /********************************************************************************
                                   GRADIENT
@@ -5243,7 +5243,7 @@ nav.main .container, .menu .button-container, .example-find-flight {
   -ms-flex-direction: row;
   flex-direction: row; }
 
-.menu, .example-landing, .example-text, .page-landing, .page-account {
+.menu, .example-landing, .example-text, .page-landing div, .page-account {
   -webkit-box-orient: vertical;
   -moz-box-orient: vertical;
   -webkit-flex-direction: column;
@@ -5308,7 +5308,7 @@ nav.main .container, .menu .button-container {
   -moz-align-items: flex-start;
   align-items: flex-start; }
 
-nav.main .container, .menu, .example-find-flight, .example-landing, .page-landing {
+nav.main .container, .menu, .example-find-flight, .example-landing, .page-landing div {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
@@ -5950,8 +5950,6 @@ nav.main {
   padding-top: 150px; }
   .wdw.open {
     display: block; }
-  .wdw.wdw-flight {
-    padding-top: 0; }
 
 .wdw-example-2 .background-image {
   background-image: url(../assets/images/img26.jpg); }
@@ -6000,9 +5998,19 @@ nav.main {
 ********************************************************************************/
 .page-landing {
   padding-top: 230px;
-  margin: 0; }
-  .page-landing h1, .page-landing h3, .page-landing a {
-    color: #f2f2f2; }
+  margin: 0;
+  text-align: center;
+  position: relative; }
+  .page-landing div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 230px;
+    padding-top: 100px; }
+    .page-landing div h1, .page-landing div h3, .page-landing div a {
+      color: #f2f2f2; }
+  .page-landing.background-image {
+    background-image: url(../assets/images/img15.jpg); }
 
 .page-account {
   width: 80%;

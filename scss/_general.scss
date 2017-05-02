@@ -314,9 +314,6 @@ nav.main{
   &.open{
     display: block;
   }
-  &.wdw-flight{
-    padding-top: 0;
-  }
 }
 .wdw-flight{
   .container{
@@ -335,6 +332,8 @@ nav.main{
     background-image: url(../assets/images/img5.jpg);
   }
 }
+
+
 
 
 
@@ -387,12 +386,25 @@ nav.main{
 ********************************************************************************/
 
 .page-landing{
-  @include align-items(center);
-  @include flex-direction(column);
   padding-top: 230px;
   margin: 0;
-  h1, h3, a{
-    color: $secondary-color;
+  text-align: center;
+  position: relative;
+  div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 230px;
+    padding-top: 100px;
+    @include align-items(center);
+    @include flex-direction(column);
+
+    h1, h3, a{
+      color: $secondary-color;
+    }
+  }
+  &.background-image{
+    background-image: url(../assets/images/img15.jpg);
   }
 }
 
