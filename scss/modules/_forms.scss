@@ -106,3 +106,23 @@ form{
   }
 }
 
+.form-login, .form-register{
+  width: 250px;
+  div{
+    margin-bottom: 30px;
+    input{
+      font-size: 0.9em;
+      padding-left: 7px;
+      background-color: rgba($base-color, 0.5);
+
+    }
+    label{
+      top: 15px;
+      &.active{
+        font-size: 0.8em;
+        opacity: 0.5;
+      }
+    }
+  }
+}
+

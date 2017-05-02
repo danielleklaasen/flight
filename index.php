@@ -12,6 +12,8 @@ require_once('services/flight.php');
 require_once('services/results.php');
 require_once('services/profile.php');
 require_once('services/template.php');
+require_once('services/login.php');
+require_once('services/register.php');
 
 
 //insert scripts

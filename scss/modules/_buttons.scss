@@ -11,7 +11,7 @@ button, .btn{
   @extend %btn; // here we load the btn defaults
   background-color: $primary-color;
   color: $base-color;
-
+  @include border-radius(2px);
   &:active, &:focus{
     outline: none;
   }

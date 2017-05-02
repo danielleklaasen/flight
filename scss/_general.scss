@@ -309,15 +309,15 @@ nav.main{
   left: 0;
 
   display: none;
-  padding-top: 150px;
+  padding-top: 120px;
 
   &.open{
     display: block;
   }
 }
-.wdw-flight{
-  .container{
-
+.wdw-login{
+  .background-image {
+    background-image: url(../assets/images/img28.jpg);
   }
 }
 
@@ -332,7 +332,14 @@ nav.main{
     background-image: url(../assets/images/img5.jpg);
   }
 }
-
+.wdw-register, .wdw-login{
+  .container{
+    @include display-flex();
+    @include justify-content(center);
+    @include align-items(center);
+    height: 82%;
+  }
+}
 
 
 
