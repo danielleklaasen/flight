@@ -5155,10 +5155,10 @@ template {
 
 /* HEADLINES */
 /* CALCULATING EMS
-target ÷ context = result
+target ├À context = result
 
 example:
-24 ÷ 16 = 1.5
+24 ├À 16 = 1.5
 
 explanation: you want 24 px, base is 16 px.
 set styling to 1.5 em.
@@ -5929,5 +5929,29 @@ nav.main {
       display: flex; }
       .footer.background-image .background-image-overlay-base-color p {
         padding-top: 20px; }
+
+input {
+  margin: 40px 25px;
+  width: 200px;
+  display: block;
+  border: none;
+  margin-top: 50px;
+  padding: 10px 0;
+  border-bottom: solid 1px #000000;
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #000000 4%);
+  background-position: -200px 0;
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  color: black; }
+  input:focus, input:valid {
+    box-shadow: none;
+    outline: none;
+    background-position: 0 0; }
+    input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+      color: #000000;
+      font-size: 11px;
+      transform: translateY(-20px);
+      visibility: visible !important; }
 
 /*# sourceMappingURL=style.css.map */
