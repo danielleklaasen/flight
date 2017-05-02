@@ -6369,6 +6369,7 @@ nav.main {
       margin-right: 5%; } }
   @media (max-width: 768px) {
     .flight-duration {
+      padding-top: 0px;
       margin-left: 5%;
       margin-right: 5%; } }
 
