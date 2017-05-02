@@ -14,7 +14,7 @@
         <div id="searchBar">
         <input id="departure" placeholder="departure" required>
         <input id="destination" placeholder="destination" required>
-        <button id="depart-button" class="btn btn-wdw">Search</button>
+        <button id="depart-button" class="btn btn-wdw-results">Search</button>
         </div>
 
         <div id="flight-results">
