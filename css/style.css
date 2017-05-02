@@ -5330,6 +5330,8 @@ button, .btn {
 button, .btn {
   background-color: #000000;
   color: #ffffff; }
+  button:active, button:focus, .btn:active, .btn:focus {
+    outline: none; }
 
 .btn {
   display: inline-block;
@@ -5933,9 +5935,12 @@ nav.main {
   overflow: scroll;
   top: 0;
   left: 0;
-  display: none; }
+  display: none;
+  padding-top: 150px; }
   .wdw.open {
     display: block; }
+  .wdw.wdw-flight {
+    padding-top: 0; }
 
 .wdw-example-2 .background-image {
   background-image: url(../assets/images/img26.jpg); }

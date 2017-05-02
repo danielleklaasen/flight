@@ -299,10 +299,13 @@ nav.main{
   left: 0;
 
   display: none;
-
+  padding-top: 150px;
 
   &.open{
     display: block;
+  }
+  &.wdw-flight{
+    padding-top: 0;
   }
 }
 .wdw-flight{

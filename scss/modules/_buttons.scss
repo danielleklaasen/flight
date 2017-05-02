@@ -9,6 +9,9 @@ button, .btn{
   @extend %btn; // here we load the btn defaults
   background-color: $primary-color;
   color: $base-color;
+  &:active, &:focus{
+    outline: none;
+  }
 }
 .btn{
   @include forward();
