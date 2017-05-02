@@ -5155,10 +5155,10 @@ template {
 
 /* HEADLINES */
 /* CALCULATING EMS
-target ├À context = result
+target ÷ context = result
 
 example:
-24 ├À 16 = 1.5
+24 ÷ 16 = 1.5
 
 explanation: you want 24 px, base is 16 px.
 set styling to 1.5 em.
@@ -5325,7 +5325,9 @@ button, .btn {
   border: 2px solid #000000;
   padding: 15px;
   font-weight: 300;
-  cursor: pointer; }
+  cursor: pointer;
+  width: 100px;
+  text-align: center; }
 
 button, .btn {
   background-color: #000000;
@@ -6081,15 +6083,11 @@ input {
   display: -webkit-flex;
   display: flex;
   justify-content: space-around;
-<<<<<<< HEAD
   align-items: center;
   padding-bottom: 2vh; }
   @media (max-width: 480px) {
     #searchBar {
       flex-direction: column; } }
-=======
-  align-items: center; }
->>>>>>> origin/master
 
 #departingFrom {
   text-align: right;

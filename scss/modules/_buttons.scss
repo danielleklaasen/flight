@@ -3,12 +3,15 @@
   padding: 15px;
   font-weight: 300;
   cursor: pointer;
+  width: 100px;
+  text-align: center;
 }
 
 button, .btn{
   @extend %btn; // here we load the btn defaults
   background-color: $primary-color;
   color: $base-color;
+
   &:active, &:focus{
     outline: none;
   }
