@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b7466b5-270d-4edd-a00c-6ad52660059f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/188df5b6842fde2835f93fd812b95bfdd415a9fa/_bogdan.scssc" afterPath="$PROJECT_DIR$/.sass-cache/188df5b6842fde2835f93fd812b95bfdd415a9fa/_bogdan.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/188df5b6842fde2835f93fd812b95bfdd415a9fa/_general.scssc" afterPath="$PROJECT_DIR$/.sass-cache/188df5b6842fde2835f93fd812b95bfdd415a9fa/_general.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_general.scss" afterPath="$PROJECT_DIR$/scss/_general.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/flight.php" afterPath="$PROJECT_DIR$/services/flight.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +20,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="_general.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_general.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/_general.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="339">
@@ -40,6 +35,16 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="569">
                   <caret line="234" column="10" lean-forward="true" selection-start-line="231" selection-start-column="8" selection-end-line="234" selection-end-column="10" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/script.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="50" column="43" lean-forward="false" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
@@ -62,8 +67,8 @@
           <file leaf-file-name="flight.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/services/flight.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="446">
-                  <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+                <state relative-caret-position="371">
+                  <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -89,6 +94,7 @@
       <find>sear</find>
       <find>searchB</find>
       <find>.wdw</find>
+      <find>.page</find>
       <find>Nor</find>
     </findStrings>
   </component>
@@ -101,11 +107,11 @@
         <option value="$PROJECT_DIR$/scss/partials/_mixins.scss" />
         <option value="$PROJECT_DIR$/scss/modules/_buttons.scss" />
         <option value="$PROJECT_DIR$/services/navigation.php" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/scss/_bogdan.scss" />
         <option value="$PROJECT_DIR$/services/template.php" />
-        <option value="$PROJECT_DIR$/services/flight.php" />
         <option value="$PROJECT_DIR$/scss/_general.scss" />
+        <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/services/flight.php" />
       </list>
     </option>
   </component>
@@ -213,6 +219,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flight" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -237,7 +257,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11450000" />
+    <option name="totallyTimeSpent" value="11559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="23" width="1280" height="717" extended-state="0" />
@@ -348,16 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="44" column="20" lean-forward="false" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/partials/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -382,6 +392,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_general.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="385" column="14" lean-forward="false" selection-start-line="385" selection-start-column="14" selection-end-line="385" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/services/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="569">
@@ -390,18 +408,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/flight.php">
+    <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="50" column="43" lean-forward="false" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_general.scss">
+    <entry file="file://$PROJECT_DIR$/services/flight.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="385" column="14" lean-forward="false" selection-start-line="385" selection-start-column="14" selection-end-line="385" selection-end-column="14" />
+        <state relative-caret-position="371">
+          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           <folding />
         </state>
       </provider>

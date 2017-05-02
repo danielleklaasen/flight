@@ -48,6 +48,7 @@ $(document).on('click', '.btn-wdw-profile', function(){
 function fnOpenProfile() {
     $('.wdw').removeClass('open');
     $('.wdw-profile').addClass('open');
+    $('nav.main').removeClass("nav-small");
 }
 
 /********************************************************************************
