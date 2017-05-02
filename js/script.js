@@ -6,6 +6,7 @@
     Open window
     Close window
  FLOATING LABEL
+ SCROLL FUNCTIONS
 
  ********************************************************************************/
 
@@ -60,6 +61,24 @@ $(document).on('click', '.btn-close', function(){
 
  ********************************************************************************/
 
+
+/********************************************************************************
+
+ SCROLL FUNCTIONS
+
+ ********************************************************************************/
+
+var windowHeight = $(window).height();   // Get the window height.
+$('.wdw').on("scroll", function () { // Do this on scroll in .wdw
+    if ($(this).scrollTop() > (windowHeight/10) ) {
+        console.log("scrolling state");
+        $('nav.main').addClass("nav-small");
+    } else {
+        $('nav.main').removeClass("nav-small");
+    }
+}).on("resize", function(){ // If the user resizes the window
+    windowHeight = $(this).height(); // you'll need the new height value
+});
 
 //
 //                       _oo0oo_
