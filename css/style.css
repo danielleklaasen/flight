@@ -5155,10 +5155,10 @@ template {
 
 /* HEADLINES */
 /* CALCULATING EMS
-target ├À context = result
+target ÷ context = result
 
 example:
-24 ├À 16 = 1.5
+24 ÷ 16 = 1.5
 
 explanation: you want 24 px, base is 16 px.
 set styling to 1.5 em.
@@ -5769,7 +5769,7 @@ nav.main {
   background-color: #ffffff;
   transition: 0.5s all; }
   nav.main .container, nav.main .logo-overlay {
-    transition: 0.2s all;
+    transition: 0.7s all;
     height: 120px;
     width: 100%;
     display: -webkit-box;
@@ -5790,7 +5790,7 @@ nav.main {
     nav.main .logo-overlay .logo {
       width: 30px;
       margin-left: -140px;
-      transition: 0.7s all; }
+      transition: 0.5s all; }
   nav.main.nav-small {
     background-color: rgba(255, 255, 255, 0.8);
     height: 70px; }
@@ -5799,7 +5799,8 @@ nav.main {
     nav.main.nav-small .container .logo {
       opacity: 0; }
     nav.main.nav-small .logo-overlay .logo {
-      margin-left: 0; }
+      margin-left: 0;
+      transition: 0.7s all; }
 
 /********************************************************************************
 
@@ -5906,7 +5907,8 @@ nav.main {
   overflow: scroll;
   top: 0;
   left: 0;
-  display: none; }
+  display: none;
+  padding-top: 200px; }
   .wdw.open {
     display: block; }
 

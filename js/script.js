@@ -69,16 +69,26 @@ $(document).on('click', '.btn-close', function(){
  ********************************************************************************/
 
 var windowHeight = $(window).height();   // Get the window height.
+
+$(document).on("scroll", function () { // Do this on scroll in .wdw
+    fnMenuEffectScroll(this);
+
+}).on("resize", function(){ // If the user resizes the window
+    windowHeight = $(this).height(); // you'll need the new height value
+});
+
 $('.wdw').on("scroll", function () { // Do this on scroll in .wdw
-    if ($(this).scrollTop() > (windowHeight/10) ) {
-        console.log("scrolling state");
+    fnMenuEffectScroll(this);
+});
+
+
+function fnMenuEffectScroll(that) {
+    if ($(that).scrollTop() > (windowHeight/10) ) {
         $('nav.main').addClass("nav-small");
     } else {
         $('nav.main').removeClass("nav-small");
     }
-}).on("resize", function(){ // If the user resizes the window
-    windowHeight = $(this).height(); // you'll need the new height value
-});
+}
 
 //
 //                       _oo0oo_

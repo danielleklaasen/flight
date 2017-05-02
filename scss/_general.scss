@@ -76,7 +76,7 @@ nav.main{
   background-color: $base-color;
   transition: 0.5s all;
   .container, .logo-overlay{
-    transition: 0.2s all;
+    transition: 0.7s all;
     height: 120px;
     width: 100%;
     @include display-flex();
@@ -100,23 +100,27 @@ nav.main{
     .logo{
       width: 30px;
       margin-left: -140px;
-      transition: 0.7s all;
+      transition: 0.5s all;
     }
   }
   &.nav-small{
     background-color: rgba($base-color, 0.8);
     height: 70px;
+    //transition: 1s all;
     .container, .logo-overlay{
       height: 70px;
+
     }
     .container{
       .logo{
         opacity: 0;
+       // transition: 1s all;
       }
     }
     .logo-overlay{
       .logo{
         margin-left: 0;
+      transition: 0.7s all;
       }
     }
   }
@@ -262,6 +266,8 @@ nav.main{
   left: 0;
 
   display: none;
+
+  padding-top: 200px;
   &.open{
     display: block;
   }
