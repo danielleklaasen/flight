@@ -439,6 +439,7 @@ nav.main{
       @include display-flex();
       @include justify-content(center);
       p{
+        color: $highlight-color;
         padding-top: 20px;
       }
     }

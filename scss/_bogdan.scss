@@ -15,24 +15,27 @@ input {
     border: none;
   margin-top: 50px;
   padding: 10px 0;
-  border-bottom: solid 1px $primary-color;
+  border-bottom: solid 1px $highlight-color;
   transition: all 0.3s cubic-bezier(.64,.09,.08,1);
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 96%, $primary-color 4%);
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 96%, $highlight-color 4%);
   background-position: -250px 0;
   background-size: 250px 100%;
   background-repeat: no-repeat;
-  color: darken($primary-color, 20%);
+  color: $highlight-color;
   &:focus, &:valid {
     box-shadow: none;
     outline: none;
     background-position: 0 0;
     &::-webkit-input-placeholder {
-      color: $primary-color;
+      color: $highlight-color;
       font-size: 11px;
       transform: translateY(-20px);
       visibility: visible !important;
       transition: all 0.3s cubic-bezier(.64,.09,.08,1);
     }
+  }
+  &::-webkit-input-placeholder {
+    color: $highlight-color;
   }
 }
 
