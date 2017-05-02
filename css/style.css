@@ -5155,10 +5155,10 @@ template {
 
 /* HEADLINES */
 /* CALCULATING EMS
-target ÷ context = result
+target ├À context = result
 
 example:
-24 ÷ 16 = 1.5
+24 ├À 16 = 1.5
 
 explanation: you want 24 px, base is 16 px.
 set styling to 1.5 em.
@@ -5927,8 +5927,10 @@ nav.main {
   .wdw.open {
     display: block; }
 
-.wdw-flight .container {
-  height: 200vh; }
+.wdw-flight {
+  overflow-y: hidden; }
+  .wdw-flight .container {
+    height: 200vh; }
 
 .wdw-example-2 .background-image {
   background-image: url(../assets/images/img26.jpg); }
@@ -5994,16 +5996,21 @@ nav.main {
 
 input {
   margin: 40px 25px;
-  width: 200px;
-  display: block;
+  max-width: 250px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
   border: none;
   margin-top: 50px;
   padding: 10px 0;
   border-bottom: solid 1px #000000;
   transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #000000 4%);
-  background-position: -200px 0;
-  background-size: 200px 100%;
+  background-position: -250px 0;
+  background-size: 250px 100%;
   background-repeat: no-repeat;
   color: black; }
   input:focus, input:valid {
@@ -6016,5 +6023,18 @@ input {
       transform: translateY(-20px);
       visibility: visible !important;
       transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1); }
+
+#searchBar {
+  height: 100px;
+  background-color: #f2f2f2;
+  background-color: rgba(0, 0, 0, 0.05);
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 /*# sourceMappingURL=style.css.map */
