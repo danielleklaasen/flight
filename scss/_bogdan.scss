@@ -196,6 +196,7 @@ flex-direction: column;
   @include breakpoint(mobile) {
     width: 50px;
   }
+  width: 200px;
 
 }
 
@@ -212,7 +213,7 @@ flex-direction: column;
   @include breakpoint(mobile) {
     width: 50px;
   }
-
+  width: 200px;
 }
 
 .flight-duration{
