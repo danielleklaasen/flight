@@ -8,7 +8,7 @@ require_once('services/header.php');
 require_once('services/navigation.php');
 
 //insert services files
-//require_once('services/template.php');
+require_once('services/template.php');
 //require_once('services/flight.php');
 
 //insert scripts
