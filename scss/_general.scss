@@ -82,7 +82,11 @@ nav.main{
     @include flex-direction(row);
     @include align-items(center);
     @include justify-content(space-between);
+    .profile{
+      cursor: pointer;
+    }
     .logo-container{
+      cursor: pointer;
       position: relative;
       .logo, .airplane{
         height: auto;
@@ -136,6 +140,12 @@ nav.main{
   left: 0;
   z-index: 2000;
   display: none;
+  //@include display-flex();
+  @include flex-direction(column);
+  @include justify-content(space-around);
+  @include align-items(center);
+
+  background-color: $secondary-color;
 }
 
 /********************************************************************************
@@ -155,6 +165,7 @@ nav.main{
 }
 
 .menu-burger {
+  cursor: pointer;
   &img {
     width: 1.25em;
   }

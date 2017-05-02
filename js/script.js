@@ -37,6 +37,19 @@ $(document).on('click', '.btn-wdw', function(){
 
 });
 
+
+/********************************************************************************
+ Open profile
+ ********************************************************************************/
+$(document).on('click', '.btn-wdw-profile', function(){
+    fnOpenProfile();
+});
+
+function fnOpenProfile() {
+    $('.wdw').removeClass('open');
+    $('.wdw-profile').addClass('open');
+}
+
 /********************************************************************************
  Close window
  ********************************************************************************/
@@ -108,6 +121,14 @@ $(document).on('click', '.btn-home', function(){
 $(document).on('click', '.btn-menu', function(){
     $('.menu').css('display','flex');
 });
+
+$(document).on('click', '.menu-item', function(){
+    $('.menu').hide();
+});
+$(document).on('click', '.btn-close-menu', function(){
+    $('.menu').hide();
+});
+
 //
 //                       _oo0oo_
 //                      o8888888o

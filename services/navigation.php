@@ -8,14 +8,15 @@
             <img class="airplane btn-home" src="assets/airplane.svg" alt />
         </div>
         <div class="profile circle">
-            <img class="profile-icon" src="assets/icons/outline/profile.svg" alt/>
+            <img class="profile-icon btn-wdw-profile" src="assets/icons/outline/profile.svg" alt/>
         </div>
     </div>
 
 </nav>
 
 <div class="menu">
-    <a id="wdw-template" href="javascript:void(0)" class="btn-wdw">Template</a>
-    <a id="wdw-flight" href="javascript:void(0)" class="btn-wdw">Home</a>
-    <a id="wdw-profile" href="javascript:void(0)" class="btn-wdw">Profile</a>
+    <div class="btn-close-menu"></div>
+    <a id="wdw-template" href="javascript:void(0)" class="btn-wdw menu-item link-disappear-primary">Template</a>
+    <a id="wdw-flight" href="javascript:void(0)" class="btn-wdw menu-item link-disappear-primary">Home</a>
+    <a id="wdw-profile" href="javascript:void(0)" class="btn-wdw menu-item link-disappear-primary">Profile</a>
 </div>
