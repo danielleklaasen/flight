@@ -1,43 +1,47 @@
 
-input {
-  margin: 40px 25px;
-  max-width: 250px;
-  @include breakpoint(desktop) {
-    max-width: 35vw;
-   }
-   @include breakpoint(tablet) {
-     max-width: 20vw;
+
+#searchBar{
+  input {
+    margin: 40px 25px;
+    max-width: 250px;
+    @include breakpoint(desktop) {
+      max-width: 35vw;
     }
-  @include breakpoint(mobile) {
-    max-width: 50vw;
-   }
-  @include display-flex();
+    @include breakpoint(tablet) {
+      max-width: 20vw;
+    }
+    @include breakpoint(mobile) {
+      max-width: 50vw;
+    }
+    @include display-flex();
     border: none;
-  margin-top: 50px;
-  padding: 10px 0;
-  border-bottom: solid 1px $highlight-color;
-  transition: all 0.3s cubic-bezier(.64,.09,.08,1);
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 96%, $highlight-color 4%);
-  background-position: -250px 0;
-  background-size: 250px 100%;
-  background-repeat: no-repeat;
-  color: $highlight-color;
-  &:focus, &:valid {
-    box-shadow: none;
-    outline: none;
-    background-position: 0 0;
+    margin-top: 50px;
+    padding: 10px 0;
+    border-bottom: solid 1px $highlight-color;
+    transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 96%, $highlight-color 4%);
+    background-position: -250px 0;
+    background-size: 250px 100%;
+    background-repeat: no-repeat;
+    color: $highlight-color;
+    &:focus, &:valid {
+      box-shadow: none;
+      outline: none;
+      background-position: 0 0;
+      &::-webkit-input-placeholder {
+        color: $highlight-color;
+        font-size: 11px;
+        transform: translateY(-20px);
+        visibility: visible !important;
+        transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+      }
+    }
     &::-webkit-input-placeholder {
       color: $highlight-color;
-      font-size: 11px;
-      transform: translateY(-20px);
-      visibility: visible !important;
-      transition: all 0.3s cubic-bezier(.64,.09,.08,1);
     }
   }
-  &::-webkit-input-placeholder {
-    color: $highlight-color;
-  }
 }
+
 
 #searchBar {
 
