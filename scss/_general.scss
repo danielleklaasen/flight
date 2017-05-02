@@ -10,6 +10,7 @@
    VIEWS (WDW)
     Z-index overview
    BACKGROUND IMAGE
+   PAGES
    FOOTER
 
  ********************************************************************************/
@@ -107,6 +108,12 @@ nav.main{
         transition: 1s all;
       }
     }
+    .menu-burger {
+      cursor: pointer;
+      &img {
+        width: 1.25em;
+      }
+    }
   }
   &.nav-small{
     background-color: rgba($base-color, 0.8);
@@ -164,12 +171,7 @@ nav.main{
   }
 }
 
-.menu-burger {
-  cursor: pointer;
-  &img {
-    width: 1.25em;
-  }
-}
+
 
 /********************************************************************************
 
@@ -298,16 +300,15 @@ nav.main{
 
   display: none;
 
-  padding-top: 200px;
+
   &.open{
     display: block;
   }
 }
 .wdw-flight{
   .container{
-    height:200vh;
+
   }
-  overflow-y: hidden;
 }
 
 .wdw-example-2{
@@ -364,6 +365,37 @@ nav.main{
   left: 0;
   @extend %card-shadow-2;
 }
+
+
+/********************************************************************************
+
+                                 PAGES
+
+********************************************************************************/
+
+.page-landing{
+  @include align-items(center);
+  @include flex-direction(column);
+  padding-top: 230px;
+  margin: 0;
+  h1, h3, a{
+    color: $secondary-color;
+  }
+}
+
+.page-account{
+  width: 80%;
+  padding: 10%;
+  @include flex-direction(column);
+  @include align-items(flex-start);
+  h1, h3, a, h6, p{
+    color: $highlight-color;
+  }
+  hr{
+    border-color: $highlight-color;
+  }
+}
+
 
 /********************************************************************************
 
