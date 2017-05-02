@@ -12,6 +12,7 @@
  ********************************************************************************/
 
 
+
 /********************************************************************************
 
  WINDOW
@@ -104,6 +105,29 @@ function fnMenuEffectScroll(that) {
         $('nav.main').removeClass("nav-small");
     }
 }
+
+
+/********************************************************************************
+ Smooth scrolling
+ ********************************************************************************/
+
+$(document).on('click', 'a', function(event){
+    var attr = $(this).attr('data-smooth-scroll');
+     this.blur();
+
+// For some browsers, `attr` is undefined; for others,
+// `attr` is false.  Check for both.
+    if (typeof attr !== typeof undefined && attr !== false) {
+        event.preventDefault();
+
+        $('.wdw.open').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top-100
+        }, 500);
+        console.log("animating window");
+
+    }
+});
+
 
 
 /********************************************************************************

@@ -4,7 +4,7 @@
     <section class="horizontal-vertical-center box page-landing highlight-color-bg secondary-color">
         <h3>Fly light</h3>
         <h1>We stress, you <span class="bold">relax</span></h1>
-        <a href="#searchBar" class="link-disappear-base">Search flights now</a>
+        <a href="#searchBar" class="link-disappear-base" data-smooth-scroll>Search flights now</a>
     </section>
 
     <div class="container">
