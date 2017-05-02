@@ -55,7 +55,7 @@ function fnOpenProfile() {
 /********************************************************************************
  Open results
  ********************************************************************************/
-$(document).on('click', '.btn-wdw-profile', function(){
+$(document).on('click', '.btn-wdw-results', function(){
     fnOpenResults();
 });
 
