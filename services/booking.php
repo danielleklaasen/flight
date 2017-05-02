@@ -1,5 +1,5 @@
 <!-- BOOKING WINDOW -->
-<div class="wdw wdw-booking open base-color-bg">
+<div class="wdw wdw-booking base-color-bg">
     <div class="container">
         <form class="form-booking">
             <div>
