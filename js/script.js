@@ -100,6 +100,36 @@ function fnOpenResults() {
 }
 
 /********************************************************************************
+ Open booking
+ ********************************************************************************/
+$(document).on('click', '.btn-wdw-booking', function(){
+    console.log("open booking");
+    fnOpenBooking();
+});
+
+function fnOpenBooking() {
+    $('.wdw').removeClass('open');
+    $('.wdw-booking').addClass('open');
+    $('nav.main').removeClass("nav-small");
+}
+
+/********************************************************************************
+ Open confirmation
+ ********************************************************************************/
+$(document).on('click', '.btw-wdw-confirmation', function(){
+    console.log("open confirmation");
+    fnOpenConfirmation();
+
+});
+
+function fnOpenConfirmation() {
+    console.log("now");
+    $('.wdw').removeClass('open');
+    $('.wdw-confirmation').addClass('open');
+    $('nav.main').removeClass("nav-small");
+}
+
+/********************************************************************************
  Close window
  ********************************************************************************/
 

@@ -366,6 +366,31 @@ nav.main{
   }
 }
 
+.wdw-booking{
+  z-index: 400;
+  .container{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    @include display-flex();
+    @include justify-content(center);
+    @include align-items(center);
+    .form-booking{
+      width: 60%;
+      @include align-items(center);
+      @include flex-direction(row);
+      input{
+        width: 100%;
+        max-width: 1000px;
+      }
+    }
+  }
+}
+
+
+
 /********************************************************************************
                                   Z-index overview
 ********************************************************************************/

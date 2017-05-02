@@ -84,7 +84,7 @@
     </div>
   </div>
 
-<div class="btn"> MEMES </div>
+<div class="btn btn-wdw-booking"> MEMES </div>
 
 
     <?php

@@ -106,7 +106,7 @@ form{
   }
 }
 
-.form-login, .form-register{
+.form-login, .form-register, .form-booking{
   width: 250px;
   div{
     margin-bottom: 30px;
@@ -123,6 +123,12 @@ form{
         opacity: 0.5;
       }
     }
+  }
+}
+input{
+  &.floating-label{
+    width: 95% !important;
+    padding-left: 5% !important;
   }
 }
 
