@@ -5331,7 +5331,11 @@ button, .btn {
 
 button, .btn {
   background-color: #000000;
-  color: #ffffff; }
+  color: #ffffff;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px; }
   button:active, button:focus, .btn:active, .btn:focus {
     outline: none; }
 
@@ -5581,6 +5585,20 @@ form div {
       top: 4px;
       opacity: 1;
       font-size: 0.9em; }
+
+.form-login, .form-register {
+  width: 250px; }
+  .form-login div, .form-register div {
+    margin-bottom: 30px; }
+    .form-login div input, .form-register div input {
+      font-size: 0.9em;
+      padding-left: 7px;
+      background-color: rgba(255, 255, 255, 0.5); }
+    .form-login div label, .form-register div label {
+      top: 15px; }
+      .form-login div label.active, .form-register div label.active {
+        font-size: 0.8em;
+        opacity: 0.5; }
 
 a {
   color: #000000;
