@@ -5155,10 +5155,10 @@ template {
 
 /* HEADLINES */
 /* CALCULATING EMS
-target ÷ context = result
+target ├À context = result
 
 example:
-24 ÷ 16 = 1.5
+24 ├À 16 = 1.5
 
 explanation: you want 24 px, base is 16 px.
 set styling to 1.5 em.
@@ -6092,6 +6092,28 @@ input {
 #departingFrom {
   text-align: right;
   width: 48vw;
+  background-position: right center; }
+
+#flight-results {
+  display: block;
+  position: relative;
+  color: black;
+  width: 100%;
+  height: 20vh;
+  margin-top: 6px;
+  border-radius: 3px;
+  background-color: #f6f9fa;
+  overflow: hidden;
+  cursor: default;
+  opacity: 1;
+  filter: alpha(opacity=100); }
+
+#companies-used {
+  font-size: 0;
+  line-height: 0;
+  text-align: center;
+  width: 68px;
+  padding: 0;
   background-position: right center; }
 
 /*# sourceMappingURL=style.css.map */
