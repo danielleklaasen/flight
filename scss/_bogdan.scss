@@ -31,7 +31,7 @@ input {
   height: 100px;
   @include alpha-background-color(rgba($primary-color, 0.05), white);
   @include display-flex();
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 

@@ -9,6 +9,7 @@ require_once('services/navigation.php');
 
 //insert services files
 require_once('services/flight.php');
+require_once('services/results.php');
 require_once('services/profile.php');
 require_once('services/template.php');
 

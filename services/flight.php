@@ -12,7 +12,11 @@
 
 
         <div id="searchBar">
-        <input class="" placeholder="destination" required></div>
+        <input id="departure" placeholder="departure" required>
+        <input id="destination" placeholder="destination" required>
+        <button id="depart-button" class="btn btn-wdw">Search</button>
+        </div>
+
         <div id="flight-results">
           <div class="flights-information">
               <div class="companies-used">
