@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b7466b5-270d-4edd-a00c-6ad52660059f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/188df5b6842fde2835f93fd812b95bfdd415a9fa/_general.scssc" afterPath="$PROJECT_DIR$/.sass-cache/188df5b6842fde2835f93fd812b95bfdd415a9fa/_general.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/2c48491ac9f505d1898a7468d49af58c93467a95/_buttons.scssc" afterPath="$PROJECT_DIR$/.sass-cache/2c48491ac9f505d1898a7468d49af58c93467a95/_buttons.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_general.scss" afterPath="$PROJECT_DIR$/scss/_general.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/modules/_buttons.scss" afterPath="$PROJECT_DIR$/scss/modules/_buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/profile.php" afterPath="$PROJECT_DIR$/services/profile.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,8 +72,8 @@
           <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="317">
-                  <caret line="63" column="15" lean-forward="false" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
+                <state relative-caret-position="242">
+                  <caret line="57" column="41" lean-forward="false" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -137,6 +129,7 @@
       <find>but</find>
       <find>.wdw</find>
       <find>.page</find>
+      <find>profi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -299,7 +292,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13149000" />
+    <option name="totallyTimeSpent" value="13203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="23" width="1280" height="717" extended-state="0" />
@@ -434,14 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="54" lean-forward="false" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/modules/_buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -458,10 +443,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/services/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="54" lean-forward="false" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="63" column="15" lean-forward="false" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
+        <state relative-caret-position="242">
+          <caret line="57" column="41" lean-forward="false" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
