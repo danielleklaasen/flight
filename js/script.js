@@ -91,6 +91,10 @@ $(document).on('click', '.btn-wdw-results', function(){
 
 function fnOpenResults() {
     $('.wdw').removeClass('open');
+    $('.wdw-loading').addClass('open');
+    setTimeout(function(){
+        $('.wdw-loading').removeClass('open');
+    },1500);
     $('.wdw-results').addClass('open');
     $('nav.main').removeClass("nav-small");
 }

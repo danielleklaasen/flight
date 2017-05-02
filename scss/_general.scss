@@ -342,7 +342,29 @@ nav.main{
 }
 
 
+.wdw-results{
+  z-index: 100;
+}
+.wdw-loading{
+  z-index: 200;
 
+  .container{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    @include display-flex();
+    @include justify-content(center);
+    @include align-items(center);
+    .find-flight{
+      width: 60%;
+      @include align-items(center);
+      @include flex-direction(row);
+      @include border($primary-color);
+    }
+  }
+}
 
 /********************************************************************************
                                   Z-index overview

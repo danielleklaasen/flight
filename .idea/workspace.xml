@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b7466b5-270d-4edd-a00c-6ad52660059f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/188df5b6842fde2835f93fd812b95bfdd415a9fa/_bogdan.scssc" afterPath="$PROJECT_DIR$/.sass-cache/188df5b6842fde2835f93fd812b95bfdd415a9fa/_bogdan.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/loading.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/188df5b6842fde2835f93fd812b95bfdd415a9fa/_general.scssc" afterPath="$PROJECT_DIR$/.sass-cache/188df5b6842fde2835f93fd812b95bfdd415a9fa/_general.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/2c48491ac9f505d1898a7468d49af58c93467a95/_buttons.scssc" afterPath="$PROJECT_DIR$/.sass-cache/2c48491ac9f505d1898a7468d49af58c93467a95/_buttons.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/2c48491ac9f505d1898a7468d49af58c93467a95/_forms.scssc" afterPath="$PROJECT_DIR$/.sass-cache/2c48491ac9f505d1898a7468d49af58c93467a95/_forms.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_bogdan.scss" afterPath="$PROJECT_DIR$/scss/_bogdan.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/_general.scss" afterPath="$PROJECT_DIR$/scss/_general.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/modules/_buttons.scss" afterPath="$PROJECT_DIR$/scss/modules/_buttons.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/modules/_forms.scss" afterPath="$PROJECT_DIR$/scss/modules/_forms.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/navigation.php" afterPath="$PROJECT_DIR$/services/navigation.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,41 +26,61 @@
     <splitter split-orientation="horizontal" split-proportion="0.5375">
       <split-first>
         <leaf>
-          <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/services/login.php">
+          <file leaf-file-name="flight.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/services/flight.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="6" />
+                <state relative-caret-position="15">
+                  <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_buttons.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/modules/_buttons.scss">
+          <file leaf-file-name="loading.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/services/loading.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+                <state relative-caret-position="45">
+                  <caret line="3" column="55" lean-forward="false" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_general.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="_general.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/_general.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="189">
-                  <caret line="33" column="2" lean-forward="false" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="46" />
+                <state relative-caret-position="354">
+                  <caret line="358" column="33" lean-forward="false" selection-start-line="358" selection-start-column="33" selection-end-line="358" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="register.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/services/register.php">
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+                <state relative-caret-position="180">
+                  <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_bogdan.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/_bogdan.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="189">
+                  <caret line="47" column="63" lean-forward="false" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="results.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/services/results.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="1" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -81,8 +93,8 @@
           <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="458">
-                  <caret line="153" column="26" lean-forward="true" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
+                <state relative-caret-position="242">
+                  <caret line="96" column="8" lean-forward="false" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -96,9 +108,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fly li</find>
-      <find>example-</find>
-      <find>sear</find>
       <find>searchB</find>
       <find>.profile</find>
       <find>Nor</find>
@@ -121,11 +130,14 @@
       <find>btn-</find>
       <find>half</find>
       <find>wdw-l</find>
-      <find>wdw</find>
       <find>half-w</find>
       <find>form</find>
-      <find>rgba</find>
       <find>input</find>
+      <find>rgba</find>
+      <find>wdw-results</find>
+      <find>wdw-re</find>
+      <find>finding</find>
+      <find>wdw</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,15 +152,16 @@
         <option value="$PROJECT_DIR$/services/header.php" />
         <option value="$PROJECT_DIR$/scss/partials/_variables.scss" />
         <option value="$PROJECT_DIR$/services/flight.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/services/navigation.php" />
-        <option value="$PROJECT_DIR$/scss/_general.scss" />
         <option value="$PROJECT_DIR$/scss/_bogdan.scss" />
         <option value="$PROJECT_DIR$/scss/modules/_forms.scss" />
         <option value="$PROJECT_DIR$/services/login.php" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/scss/modules/_buttons.scss" />
         <option value="$PROJECT_DIR$/services/register.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/services/loading.php" />
+        <option value="$PROJECT_DIR$/scss/_general.scss" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
@@ -308,7 +321,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20101000" />
+    <option name="totallyTimeSpent" value="21076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="23" width="1280" height="717" extended-state="0" />
@@ -467,68 +480,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="173" column="18" lean-forward="true" selection-start-line="151" selection-start-column="8" selection-end-line="173" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/results.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/flight.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_general.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="33" column="2" lean-forward="false" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/modules/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
           <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="153" column="26" lean-forward="true" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_bogdan.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="3" lean-forward="false" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -554,6 +509,72 @@
         <state relative-caret-position="240">
           <caret line="16" column="48" lean-forward="false" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/results.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_bogdan.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="47" column="63" lean-forward="false" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/flight.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="187" column="213" lean-forward="true" selection-start-line="187" selection-start-column="8" selection-end-line="187" selection-end-column="213" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/loading.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="55" lean-forward="false" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_general.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="358" column="33" lean-forward="false" selection-start-line="358" selection-start-column="33" selection-end-line="358" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="96" column="8" lean-forward="false" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
