@@ -7,6 +7,7 @@
     Close window
  FLOATING LABEL
  SCROLL FUNCTIONS
+ ONCLICK
 
  ********************************************************************************/
 
@@ -90,6 +91,23 @@ function fnMenuEffectScroll(that) {
     }
 }
 
+
+/********************************************************************************
+
+ ON CLICK
+
+ ********************************************************************************/
+
+$(document).on('click', '.btn-home', function(){
+    //close all windows
+    $('.wdw').removeClass('open');
+    $('.wdw-flight').addClass('open');
+    $('nav.main').removeClass("nav-small");
+});
+
+$(document).on('click', '.btn-menu', function(){
+    $('.menu').css('display','flex');
+});
 //
 //                       _oo0oo_
 //                      o8888888o

@@ -19,7 +19,6 @@
 @mixin input-placeholder($value){
   -webkit-input-placeholder: $value;
   -moz-input-placeholder: $value;
-  -o-input-placeholder: $value;
   input-placeholder: $value;
   color: $primary-color;
   font-size: 11px;
