@@ -1,16 +1,16 @@
 
 input {
   margin: 40px 25px;
-  width: 200px;
-  display: block;
-  border: none;
+  max-width: 250px;
+  @include display-flex();
+    border: none;
   margin-top: 50px;
   padding: 10px 0;
   border-bottom: solid 1px $primary-color;
   transition: all 0.3s cubic-bezier(.64,.09,.08,1);
   background: linear-gradient(to bottom, rgba(255,255,255,0) 96%, $primary-color 4%);
-  background-position: -200px 0;
-  background-size: 200px 100%;
+  background-position: -250px 0;
+  background-size: 250px 100%;
   background-repeat: no-repeat;
   color: darken($primary-color, 20%);
   &:focus, &:valid {
@@ -25,4 +25,12 @@ input {
       transition: all 0.3s cubic-bezier(.64,.09,.08,1);
     }
   }
+}
+
+#searchBar {
+  height: 100px;
+  @include alpha-background-color(rgba($primary-color, 0.05), white);
+  @include display-flex();
+  justify-content: center;
+  align-items: center;
 }
