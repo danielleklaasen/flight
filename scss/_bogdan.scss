@@ -2,6 +2,15 @@
 input {
   margin: 40px 25px;
   max-width: 250px;
+  @include breakpoint(desktop) {
+    max-width: 35vw;
+   }
+   @include breakpoint(tablet) {
+     max-width: 20vw;
+    }
+  @include breakpoint(mobile) {
+    max-width: 50vw;
+   }
   @include display-flex();
     border: none;
   margin-top: 50px;
@@ -28,11 +37,15 @@ input {
 }
 
 #searchBar {
-  height: 100px;
+
   @include alpha-background-color(rgba($primary-color, 0.05), white);
   @include display-flex();
   justify-content: space-around;
   align-items: center;
+   @include breakpoint(mobile) {
+     flex-direction: column;
+    }
+    padding-bottom: 2vh;
 }
 
 #departingFrom{
@@ -40,4 +53,3 @@ input {
   width: 48vw;
   background-position: right center;
 }
-
