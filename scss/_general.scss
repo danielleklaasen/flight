@@ -3,6 +3,7 @@
  TABLE OF CONTENTS
 
    GENERAL
+   NAVIGATION
    SHAPES
    CARD
    TEMPLATE PAGE
@@ -58,6 +59,21 @@ hr{
 
 .space{
   height: 100px;
+}
+
+
+/********************************************************************************
+
+                                  NAVIGATION
+
+********************************************************************************/
+
+nav.main{
+  position: relative;
+  z-index: 1000;
+  width: 100%;
+  height: 100px;
+  background-color: $secondary-color;
 }
 
 

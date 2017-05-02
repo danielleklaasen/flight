@@ -20,8 +20,12 @@
  Open window
  ********************************************************************************/
 $(document).on('click', '.btn-wdw', function(){
-    //get the id
-    var wdwClassToOpen = this.id;
+    //set all windows to close
+    $('.wdw').removeClass('open');
+
+
+    //open the target window
+    var wdwClassToOpen = this.id; //get the id
     var wdwSelector = $('.'+wdwClassToOpen);
     //open matching window
     wdwSelector.addClass('open');
@@ -56,35 +60,29 @@ $(document).on('click', '.btn-close', function(){
 
  ********************************************************************************/
 
-$(document).on('click', function(){
 
-});
-
-function floatLabel(inputType){
-    $(inputType).each(function(){
-        var $this = $(this);
-        var text_value = $(this).val();
-
-        // on focus add class "active" to label
-        $this.focus(function(){
-            $this.next().addClass("active");
-        });
-
-        // on blur check field and remove class if needed
-        $this.blur(function(){
-            if($this.val() === '' || $this.val() === 'blank'){
-                $this.next().removeClass();
-            }
-        });
-
-        // Check input values on postback and add class "active" if value exists
-        if(text_value!=''){
-            $this.next().addClass("active");
-        }
-    });
-
-    // Automatically remove floatLabel class from select input on load
-    $( "select" ).next().removeClass();
-}
-// Add a class of "floatLabel" to the input field
-floatLabel(".floatLabel");
+//
+//                       _oo0oo_
+//                      o8888888o
+//                      88" . "88
+//                      (| -_- |)
+//                      0\  =  /0
+//                    ___/`---'\___
+//                  .' \\|     |// '.
+//                 / \\|||  :  |||// \
+//                / _||||| -:- |||||- \
+//               |   | \\\  -  /// |   |
+//               | \_|  ''\---/''  |_/ |
+//               \  .-\__  '-'  ___/-. /
+//             ___'. .'  /--.--\  `. .'___
+//          ."" '<  `.___\_<|>_/___.' >' "".
+//         | | :  `- \`.;`\ _ /`;.`/ - ` : | |
+//         \  \ `_.   \_ __\ /__ _/   .-` /  /
+//     =====`-.____`.___ \_____/___.-`___.-'=====
+//                       `=---='
+//
+//
+//     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+//               Buddha bless the code
+//
