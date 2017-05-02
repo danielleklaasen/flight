@@ -58,11 +58,11 @@ input {
 ////////////////////    TICKET LAYOUT    ////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 #flight-results {
-  display: block;
+  @include display-flex();
   position: relative;
   color: black;
   width: 100%;
-  height: 20vh;
+  height: 15vh;
   margin-top: 6px;
   border-radius: 3px;
   background-color: #f6f9fa;
@@ -73,10 +73,27 @@ input {
 }
 
 .companies-used{
-  font-size: 0;
-  line-height: 0;
-  text-align: center;
-  width: 68px;
-  padding: 0;
-  background-position: right center;
+  height: 100%;
+  padding: 1vh;
+  @include display-flex();
+  font-size: 16px;
+      padding: 5px;
+}
+.flights-timeline{
+  height: 90%;
+
+}
+
+.flights-information{
+  @include display-flex();
+  @include flex-direction(column);
+}
+
+.image-logo{
+  @include display-flex();
+  height: 100%;
+}
+
+.company-logo{
+  height: 100%;
 }

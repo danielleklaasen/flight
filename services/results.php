@@ -8,6 +8,7 @@
         </div>
         <div class="flights-timeline">
           <div class="company-logo">
+            <img class="image-logo" src="img/plane1.png" />
           </div>
           <div class="departing-from">
             <div class="departing-time">
