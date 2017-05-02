@@ -13,12 +13,40 @@
 
         <div id="searchBar">
         <input class="" placeholder="destination" required></div>
-        <div id="flightResults">
-          <div id="departingFrom">
+        <div id="flight-results">
+          <div class="flights-information">
+              <div class="companies-used">
+                Ryanair
+              </div>
+              <div class="flights-timeline">
+                <div class="company-logo">
+                </div>
+                <div class="departing-from">
+                  <div class="departing-time">
+                  </div>
+                  <div class="departing-location">
+                  </div>
+                </div>
+                <div class="flight-duration">
+                  <div class="duration">
+                  </div>
+                  <div class="frequency">
+                  </div>
+                </div>
+                <div class="destination">
+                  <div class="arrival-time">
+                  </div>
+                  <div class="arrival-location">
+                  </div>
+                </div>
+            </div>
           </div>
-          <div id="departingTo">
+          <div class="purchase-ticket">
+            <div class="ticket-information">
+            </div>
+            <div class="purchase-button">
+            </div>
           </div>
-          <div class="flightResult"> </div>
         </div>
 
         <section class="horizontal-vertical-center box page-account secondary-color-bg">
