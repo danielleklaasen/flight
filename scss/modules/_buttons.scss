@@ -13,7 +13,7 @@ button, .btn{
     outline: none;
   }
 }
-.btn{
+.btn-animation{
   @include forward();
   transition: 0.2s;
 }

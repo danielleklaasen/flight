@@ -5235,7 +5235,7 @@ p {
 /*
     Flex direction
  */
-nav.main .container, .example-find-flight {
+nav.main .container, .menu .button-container, .example-find-flight {
   -webkit-box-orient: horizontal;
   -moz-box-orient: horizontal;
   -webkit-flex-direction: row;
@@ -5284,7 +5284,7 @@ nav.main .container, .example-find-flight {
   -webkit-justify-content: center;
   justify-content: center; }
 
-nav.main .container {
+nav.main .container, .menu .button-container {
   -webkit-box-pack: justify;
   -moz-box-pack: justify;
   -webkit-flex-pack: justify;
@@ -5333,7 +5333,7 @@ button, .btn {
   button:active, button:focus, .btn:active, .btn:focus {
     outline: none; }
 
-.btn {
+.btn-animation {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -5344,7 +5344,7 @@ button, .btn {
   -webkit-transition-property: transform;
   transition-property: transform;
   transition: 0.2s; }
-  .btn:hover, .btn:focus, .btn:active {
+  .btn-animation:hover, .btn-animation:focus, .btn-animation:active {
     -webkit-transform: translateX(8px);
     transform: translateX(8px); }
 
@@ -5827,6 +5827,15 @@ nav.main {
   z-index: 2000;
   display: none;
   background-color: #f2f2f2; }
+  .menu .button-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; }
+    .menu .button-container button:first-child {
+      margin-right: 50px; }
 
 /********************************************************************************
 

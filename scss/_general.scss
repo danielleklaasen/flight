@@ -153,6 +153,16 @@ nav.main{
   @include align-items(center);
 
   background-color: $secondary-color;
+  .button-container{
+    @include display-flex();
+    @include flex-direction(row);
+    @include justify-content(space-between);
+    button{
+      &:first-child{
+        margin-right: 50px;
+      }
+    }
+  }
 }
 
 /********************************************************************************
