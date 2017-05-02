@@ -22,6 +22,7 @@ input {
       font-size: 11px;
       transform: translateY(-20px);
       visibility: visible !important;
+      transition: all 0.3s cubic-bezier(.64,.09,.08,1);
     }
   }
 }
