@@ -13,11 +13,11 @@
 
 
 
-        <div id="searchBar">
+        <section id="searchBar">
         <input id="departure" placeholder="departure" required>
         <input id="destination" placeholder="destination" required>
-        <button id="depart-button" class="btn btn-wdw-results">Search</button>
-        </div>
+        <button id="depart-button" class="btn-3 btn-wdw-results">Search</button>
+        </section>
 
         
 
