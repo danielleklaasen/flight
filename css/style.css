@@ -5155,10 +5155,10 @@ template {
 
 /* HEADLINES */
 /* CALCULATING EMS
-target ÷ context = result
+target ├À context = result
 
 example:
-24 ÷ 16 = 1.5
+24 ├À 16 = 1.5
 
 explanation: you want 24 px, base is 16 px.
 set styling to 1.5 em.
@@ -6427,5 +6427,12 @@ nav.main {
   text-align: left;
   width: 28%;
   background-position: right center; }
+
+.purchase-ticket {
+  display: flex;
+  justify-content: center; }
+  .purchase-ticket .btn-wdw-booking {
+    margin-bottom: 5px;
+    display: flex; }
 
 /*# sourceMappingURL=style.css.map */
