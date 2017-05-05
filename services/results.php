@@ -87,11 +87,13 @@
     </div>
 </div>
     <div class="purchase-ticket">
+      <div class="bottom-half">
       <div class="ticket-information">
+        <div class="ticket-price">
+        <span class="bigSpan">220£</span> <span class="smallSpan">*different charges may apply<span></div>
       </div>
-      <div class="btn btn-wdw-booking"> Purchase </div>
-      <div class="purchase-button">
-      </div>
+      <button class="btn-4 btn-wdw-booking"> Purchase </button>
+    </div>
     </div>
   </div>
 
