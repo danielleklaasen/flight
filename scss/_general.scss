@@ -358,10 +358,19 @@ nav.main{
     @include justify-content(center);
     @include align-items(center);
     .find-flight{
+      padding: 100px 0;
       width: 60%;
       @include align-items(center);
       @include flex-direction(row);
       @include border($primary-color);
+      @include breakpoint(tablet) {
+        @include flex-direction-column();
+        padding: 20px 0;
+        h1{
+          text-align: center;
+        }
+      }
+
     }
   }
 }
