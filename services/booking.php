@@ -8,7 +8,7 @@
             </div>
             <div>
                 <input type="text" id="creditcard" name="creditcard" class="floating-label">
-                <label for="creditcard" >Creditcard number (please give a fake one, this is not secure)</label>
+                <label for="creditcard" >Creditcard number (not secure)</label>
             </div>
             <div>
                 <input type="text" id="birthday" name="birthday" class="floating-label">
