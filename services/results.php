@@ -97,14 +97,12 @@
     </div>
   </div>
 
-<!--
-<div class="btn btn-wdw-booking"> MEMES </div>
--->
+<div class="space"></div>
 
 
     <?php
     //INSERT FOOTER
-    require_once('footer.php');
+    include('footer.php');
     ?>
 
 
